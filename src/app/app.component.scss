@@ -1,0 +1,48 @@
+.main-setction {
+    display: flex;
+    nav {
+        flex-basis: 20%;
+        padding: 10px;
+        height: 100vh;
+        box-shadow: 3px 0px 10px 2px black;
+        .nav-profile-section {
+            display: flex;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid;
+        }
+
+        .header-title {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h3 {
+                border-bottom: 1px solid currentColor;
+            }
+            h3, h4 {
+              line-height: 1.6;
+            }
+        }
+        ul {
+            text-align: center;
+            margin-top: 2rem;
+            li {
+                padding: 1em;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    main {
+        flex-basis: 80%;
+       
+        padding: 10px;
+        height: 100vh;
+        border-left: none;
+    }
+}

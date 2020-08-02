@@ -1,0 +1,19 @@
+.home-container {
+    max-width: 70%;
+    margin: 1rem auto;
+    border-bottom: 1px solid #85a93fe0;
+    padding-bottom: 8px;
+    .intro-title {
+        text-indent: 18%;
+        line-height: 1.5;
+    }
+    h1, h2 {
+        color: #7fffd4b8;
+    }
+}
+.home-bg {
+    h1 {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
